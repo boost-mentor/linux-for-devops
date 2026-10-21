@@ -1,0 +1,12 @@
+[Unit]
+Description=Linux video file observer
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/tail -n 1 -f %h/linux-video/notes.txt
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
+

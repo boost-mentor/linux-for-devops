@@ -1,0 +1,8 @@
+.DS_Store
+/hold-file
+/cpu-burn
+/examples/hold-file
+/examples/cpu-burn
+*.log
+*.trace
+logrotate.state
